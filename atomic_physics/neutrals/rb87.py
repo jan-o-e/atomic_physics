@@ -49,17 +49,17 @@ class Rb87(ap.Atom):
         }
 
         transitions = {
-            "780": ap.Transition(
+            "D1": ap.Transition(
                 lower=ground_level,
                 upper=P12,
                 A=1/(26.244*10**(-9)),
-                freq=2 * np.pi * 384.230484468562*10**9, 
+                freq=2 * np.pi * 384.230484468562*10**12, 
             ),
-            "795": ap.Transition(
+            "D2": ap.Transition(
                 lower=ground_level,
                 upper=P32,
                 A=1/(27.704*10**(-9)),
-                freq=2 * np.pi * 377.170746354*10**9, 
+                freq=2 * np.pi * 377.170746354*10**12, 
             ),
         }
 
